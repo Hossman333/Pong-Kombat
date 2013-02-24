@@ -1,0 +1,103 @@
+@import 'reset.css';
+/*///////////////////MAIN/////////////////////////*/
+#wrap{
+	height: 500px;
+	width:  1900px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color: black;
+	z-index: -900000;
+	position: relative;
+	overflow: hidden;
+}
+#main{
+	position: relative;
+}
+#header{
+	height: 52px;
+	width: 295px;
+	margin: 0 auto;
+}
+.title{
+	margin-top: 20px;
+	height: 52px;
+	width: 295px;
+	background-image: url(../images/title.png);
+}
+#foot{
+	position: relative;
+	height: 200px;
+	width: 100%;
+	margin-top: 5px;
+	margin: 0 auto; 
+}
+.paddle{
+	background-color: #fff;
+	width: 20px;
+	height: 60px;
+	position: absolute; 
+}
+.paddle2{
+	background-color: #fff;
+	width: 20px;
+	height: 500px;
+	float: right;
+}
+.ball{
+	background-color: #fff;
+	width:  20px;
+	height: 20px;
+	display: none;
+	-moz-border-radius: 15px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 9001;
+}
+.highScore{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 2;
+}
+.insideHighScore{
+	position: absolute;
+	z-index: 900;
+	right: 205px;
+	bottom: 31px;
+}
+.ballSpeedP1{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.ballSpeedP2{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.ballSpeedP3{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.ballSpeedP4{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.ballSpeedP5{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.ballSpeedText{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+#ballSpeedScores{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+}

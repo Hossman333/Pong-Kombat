@@ -1,0 +1,430 @@
+@import 'reset.css';
+/*///////////////////MAIN/////////////////////////*/
+#wrap{
+	height: 500px;
+	width:  100%;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color: black;
+	z-index: -900000;
+	position: relative;
+	overflow: hidden;
+}
+#main{
+	position: relative;
+}
+#header{
+	height: 52px;
+	width: 295px;
+	margin: 0 auto;
+}
+.title{
+	margin-top: 20px;
+	height: 52px;
+	width: 295px;
+	background-image: url(../images/title.png);
+}
+#foot{
+	height: 200px;
+	width: 100%;
+	margin-top: 5px;
+	margin: 0 auto; 
+}
+#foot p{
+	text-align: center;
+}
+.foot-text{
+	font-style: italic;
+	font-size: 13px;
+}
+.paddle{
+	background-color: #fff;
+	width: 20px;
+	height: 60px;
+	position: absolute; 
+}
+.paddle2{
+	background-color: #fff;
+	width: 20px;
+	height: 60px;
+	float: right;
+}
+.ball{
+	background-color: #fff;
+	width:  20px;
+	height: 20px;
+	display: none;
+	-moz-border-radius: 15px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 9001;
+}
+.ball2{
+	background-color: #fff;
+	width:  20px;
+	height: 20px;
+	display: none;
+	-moz-border-radius: 15px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 9001;
+}
+.ball3{
+	background-color: #fff;
+	width:  20px;
+	height: 20px;
+	display: none;
+	-moz-border-radius: 15px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 9001;
+}
+.ball4{
+	background-color: #fff;
+	width:  20px;
+	height: 20px;
+	display: none;
+	-moz-border-radius: 15px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 9001;
+}
+.mid{
+	width: 4px;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+}
+.mid-line{
+	height: 500px;
+	border-left: 4px dashed white;
+	z-index: 40;
+}
+/**********************************************************************************/
+/***********************************UGLYNESS**********************************/
+/*********************************************************************************/
+.grid1{
+	width: 45px;
+	height: 70px;
+	overflow: hidden;
+	position: absolute;
+	top: 50px;
+}
+.p1box1{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=1-left-cubit*/
+}
+.p1box2{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=1-middle-cubit*/
+}
+.p1box3{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=1-right-cubit*/
+}
+.p1box4{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=2-left-cubit*/
+}
+.p1box5{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: black;
+	z-index: 40;
+	/*row=2-middle-cubit*/
+}
+.p1box6{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=2-right-cubit*/
+}
+.p1box7{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=3-left-cubit*/
+}
+.p1box8{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: black;
+	z-index: 40;
+	/*row=3-middle-cubit*/
+}
+.p1box9{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=3-right-cubit*/
+}
+.p1box10{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=4-left-cubit*/
+}
+.p1box11{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: black;
+	z-index: 40;
+	/*row=4-middle-cubit*/
+}
+.p1box12{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=4-right-cubit*/
+}
+.p1box13{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*bottom-left-cubit*/
+}
+.p1box14{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*middle-cubit*/
+}
+.p1box15{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*bottom-right-cubit*/
+}
+
+
+
+
+/**********************************************************************************/
+/***********************************UGLYNESS X2**********************************/
+/*********************************************************************************/
+
+.grid2{
+	width: 45px;
+	height: 70px;
+	overflow: hidden;
+	position: absolute;
+	top: 50px;
+}
+
+.p2box1{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=1-left-cubit*/
+}
+.p2box2{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=1-middle-cubit*/
+}
+.p2box3{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=1-right-cubit*/
+}
+.p2box4{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=2-left-cubit*/
+}
+.p2box5{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: black;
+	z-index: 40;
+	/*row=2-middle-cubit*/
+}
+.p2box6{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=2-right-cubit*/
+}
+.p2box7{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=3-left-cubit*/
+}
+.p2box8{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: black;
+	z-index: 40;
+	/*row=3-middle-cubit*/
+}
+.p2box9{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=3-right-cubit*/
+}
+.p2box10{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=4-left-cubit*/
+}
+.p2box11{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: black;
+	z-index: 40;
+	/*row=4-middle-cubit*/
+}
+.p2box12{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*row=4-right-cubit*/
+}
+.p2box13{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*bottom-left-cubit*/
+}
+.p2box14{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*middle-cubit*/
+}
+.p2box15{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 5px 0;
+	background-color: white;
+	z-index: 40;
+	/*bottom-right-cubit*/
+}

@@ -1,0 +1,33 @@
+@import 'reset.css';
+/*///////////////////MAIN/////////////////////////*/
+#wrap{
+	height: 500px;
+	width:  800px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+	position: relative;
+	overflow: hidden;
+}
+.test{
+	margin-left: 640px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.background{
+	position: absolute;
+	z-index: 1;
+}
+#header{
+	height: 52px;
+	width: 295px;
+	margin: 0 auto;
+}
+.title{
+	margin-top: 20px;
+	height: 52px;
+	width: 295px;
+	background-image: url(../images/title.png);
+}

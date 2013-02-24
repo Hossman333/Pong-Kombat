@@ -1,0 +1,47 @@
+// on selection.. do something like this to save the data into a cookie
+
+var player1_data = {
+	color: 'red',
+	width: 200
+}
+$.cookie('player1', player1_data);
+
+
+
+
+
+// on the gameboard page do something like this to retrieve the data
+
+var player1 = $.cookie('player1');
+if(player1) {
+	//you now have the data
+	console.log(player1.color)
+	console.log(player1.width)
+}
+
+
+
+
+
+
+
+
+var sound = $.cookie('sound');
+if(!sound) {
+	sound = 'true';
+}
+if(sound == 'true') {
+	///turn on
+} else {
+	//turn off
+}
+
+var music = $.cookie('music');
+if(!music) {
+	music = 'true';
+}
+if(music == 'true') {
+	///turn on
+} else {
+	//turn off
+}

@@ -1,0 +1,121 @@
+<div class="paddle-color">
+				<div class="original-paddle"></div>
+				<h2 class="original">Original</h2>
+			</div>
+			<div class="paddle-color2">
+				<div class="konami-paddle"></div>
+				<h2 class="subzero">Subzero</h2>
+			</div>
+			<div class="paddle-color3">
+				<div class="reptile-paddle"></div>
+				<h2 class="reptile">Reptile</h2>
+			</div>
+			<div class="paddle-color4">
+				<div class="scorpion-paddle"></div>
+				<h2 class="scorpion">Scorpion</h2>
+			</div>
+			<div class="paddle-color5">
+				<div class="raiden-paddle"></div>
+				<h2 class="raiden">Raiden</h2>
+			</div>
+			<div class="paddle-color6">
+				<div class="liu-kang-paddle"></div>
+				<h2 class="liu-kang">Liu Kang</h2>
+			</div>
+
+
+			<div class="paddle2-color">
+				<div class="original-paddle"></div>
+				<h2 class="original">Original</h2>
+			</div>
+			<div class="paddle2-color2">
+				<div class="konami-paddle"></div>
+				<h2 class="subzero">Subzero</h2>
+			</div>
+			<div class="paddle2-color3">
+				<div class="reptile-paddle"></div>
+				<h2 class="reptile">Reptile</h2>
+			</div>
+			<div class="paddle2-color4">
+				<div class="scorpion-paddle"></div>
+				<h2 class="scorpion">Scorpion</h2>
+			</div>
+			<div class="paddle2-color5">
+				<div class="raiden-paddle"></div>
+				<h2 class="raiden">Raiden</h2>
+			</div>
+			<div class="paddle2-color6">
+				<div class="liu-kang-paddle"></div>
+				<h2 class="liu-kang">Liu Kang</h2>
+			</div>
+
+			<div class="paddle-width">
+				<div class="master-paddle"></div>
+				<h2 class="master-text">Master</h2>
+			</div>
+			<div class="paddle-width2">
+				<div class="pro-paddle"></div>
+				<h2 class="pro-text">Pro</h2>
+			</div>
+			<div class="paddle-width3">
+				<div class="amateur-paddle"></div>
+				<h2 class="amateur-text">Amateur</h2>
+			</div>
+			<div class="paddle-width4">
+				<div class="noob-paddle"></div>
+				<h2 class="noob-text">Noob</h2>
+			</div>
+
+			<div class="paddle2-width">
+				<div class="master-paddle"></div>
+				<h2 class="master-text">Master</h2>
+			</div>
+			<div class="paddle2-width2">
+				<div class="pro-paddle"></div>
+				<h2 class="pro-text">Pro</h2>
+			</div>
+			<div class="paddle2-width3">
+				<div class="amateur-paddle"></div>
+				<h2 class="amateur-text">Amateur</h2>
+			</div>
+			<div class="paddle2-width4">
+				<div class="noob-paddle"></div>
+				<h2 class="noob-text">Noob</h2>
+			</div>
+
+			<input type="button" name="okay" value class="okay">
+
+
+<!-- 
+			<div class="ball-color">
+				<div class="original-ball"></div>
+				<div class="original-box"></div>
+				<h2 class="original-text">Original</h2>
+			</div>
+			<div class="ball-color2">
+				<div class="ice-ball"></div>
+				<div class="ice-box"></div>
+				<h2 class="ice-text">Ice</h2>
+			</div>
+			<div class="ball-color3">
+				<div class="poison-ball"></div>
+				<div class="poison-box"></div>
+				<h2 class="poison-text">Poison</h2>
+			</div>
+			<div class="ball-color4">
+				<div class="flower-ball"></div>
+				<div class="flower-box"></div>
+				<h2 class="flower-text">Flower</h2>
+			</div>
+			<div class="ball-color5">
+				<div class="lightning-ball"></div>
+				<div class="lightning-box"></div>
+				<h2 class="lightning-text">Shock</h2>
+			</div>
+			<div class="ball-color6">
+				<div class="fire-ball"></div>
+				<div class="fire-box"></div>
+				<h2 class="fire-text">Fire</h2>
+			<button class="box-konami-button">Box</button>
+			<button class="ball-konami-button">Ball</button>
+			</div> -->

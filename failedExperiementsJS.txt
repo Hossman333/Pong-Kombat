@@ -1,0 +1,187 @@
+$(document).ready(function(){
+	$(".box-konami-button").click(function(){
+		$(".original-ball").hide();
+		$(".original-box").css("display", "block");
+		$(".fire-ball").hide();
+		$(".fire-box").css("display", "block");
+		$(".ice-ball").hide();
+		$(".ice-box").css("display", "block");
+		$(".poison-ball").hide();
+		$(".poison-box").css("display", "block");
+		$(".flower-ball").hide();
+		$(".flower-box").css("display", "block");
+		$(".lightning-ball").hide();
+		$(".lightning-box").css("display", "block");
+
+	});
+	$(".ball-konami-button").click(function(){
+		$(".original-ball").show();
+		$(".original-box").css("display", "none");
+		$(".fire-ball").show();
+		$(".fire-box").css("display", "none");
+		$(".ice-ball").show();
+		$(".ice-box").css("display", "none");
+		$(".poison-ball").show();
+		$(".poison-box").css("display", "none");
+		$(".flower-ball").show();
+		$(".flower-box").css("display", "none");
+		$(".lightning-ball").show();
+		$(".lightning-box").css("display", "none");
+
+	});
+
+
+
+	function resetBackground(){
+		$(".paddle-color").css("background-color", "#fff")
+		$(".paddle-color2").css("background-color", "#fff")
+		$(".paddle-color3").css("background-color", "#fff")
+		$(".paddle-color4").css("background-color", "#fff")
+		$(".paddle-color5").css("background-color", "#fff")
+		$(".paddle-color6").css("background-color", "#fff")
+	}
+
+	function setBackground(paddle){
+		resetBackground();
+		$(paddle).css("background-color", "#58FA58");
+	}
+
+	$(".paddle-color").click(function(){
+		setBackground(".paddle-color");
+	});
+	$(".paddle-color2").click(function(){
+		setBackground(".paddle-color2");
+	});
+	$(".paddle-color3").click(function(){
+		setBackground(".paddle-color3");
+	});
+	$(".paddle-color4").click(function(){
+		setBackground(".paddle-color4");
+	});
+	$(".paddle-color5").click(function(){
+		setBackground(".paddle-color5");
+	});
+	$(".paddle-color6").click(function(){
+		setBackground(".paddle-color6");
+	});
+
+
+	function resetBackgroundP2(){
+		$(".paddle2-color").css("background-color", "#fff")
+		$(".paddle2-color2").css("background-color", "#fff")
+		$(".paddle2-color3").css("background-color", "#fff")
+		$(".paddle2-color4").css("background-color", "#fff")
+		$(".paddle2-color5").css("background-color", "#fff")
+		$(".paddle2-color6").css("background-color", "#fff")
+	}
+
+	function setBackgroundP2(paddle2){
+		resetBackgroundP2();
+		$(paddle2).css("background-color", "#58D3F7");
+	}
+
+	$(".paddle2-color").click(function(){
+		setBackgroundP2(".paddle2-color");
+	});
+	$(".paddle2-color2").click(function(){
+		setBackgroundP2(".paddle2-color2");
+	});
+	$(".paddle2-color3").click(function(){
+		setBackgroundP2(".paddle2-color3");
+	});
+	$(".paddle2-color4").click(function(){
+		setBackgroundP2(".paddle2-color4");
+	});
+	$(".paddle2-color5").click(function(){
+		setBackgroundP2(".paddle2-color5");
+	});
+	$(".paddle2-color6").click(function(){
+		setBackgroundP2(".paddle2-color6");
+	});
+
+	// function resetBackgroundBall(){
+	// 	$(".ball-color").css("background-color", "#fff")
+	// 	$(".ball-color2").css("background-color", "#fff")
+	// 	$(".ball-color3").css("background-color", "#fff")
+	// 	$(".ball-color4").css("background-color", "#fff")
+	// 	$(".ball-color5").css("background-color", "#fff")
+	// 	$(".ball-color6").css("background-color", "#fff")
+	// }
+
+	// function setBackgroundBall(ball){
+	// 	resetBackgroundBall();
+	// 	$(ball).css("background-color", "#58FA58");
+	// }
+
+	// $(".ball-color").click(function(){
+	// 	setBackgroundBall(".ball-color");
+	// });
+	// $(".ball-color2").click(function(){
+	// 	setBackgroundBall(".ball-color2");
+	// });
+	// $(".ball-color3").click(function(){
+	// 	setBackgroundBall(".ball-color3");
+	// });
+	// $(".ball-color4").click(function(){
+	// 	setBackgroundBall(".ball-color4");
+	// });
+	// $(".ball-color5").click(function(){
+	// 	setBackgroundBall(".ball-color5");
+	// });
+	// $(".ball-color6").click(function(){
+	// 	setBackgroundBall(".ball-color6");
+	// });
+
+
+
+	function resetBackgroundPaddleWidth(){
+		$(".paddle-width").css("background-color", "#fff")
+		$(".paddle-width2").css("background-color", "#fff")
+		$(".paddle-width3").css("background-color", "#fff")
+		$(".paddle-width4").css("background-color", "#fff")
+	}
+
+	function setBackgroundPaddleWidth(paddleWidth){
+		resetBackgroundPaddleWidth();
+		$(paddleWidth).css("background-color", "#58FA58");
+	}
+
+	$(".paddle-width").click(function(){
+		setBackgroundPaddleWidth(".paddle-width");
+	});
+	$(".paddle-width2").click(function(){
+		setBackgroundPaddleWidth(".paddle-width2");
+	});
+	$(".paddle-width3").click(function(){
+		setBackgroundPaddleWidth(".paddle-width3");
+	});
+	$(".paddle-width4").click(function(){
+		setBackgroundPaddleWidth(".paddle-width4");
+	});
+
+
+	function resetBackgroundPaddleWidth2(){
+		$(".paddle2-width").css("background-color", "#fff")
+		$(".paddle2-width2").css("background-color", "#fff")
+		$(".paddle2-width3").css("background-color", "#fff")
+		$(".paddle2-width4").css("background-color", "#fff")
+	}
+
+	function setBackgroundPaddleWidth2(paddleWidth2){
+		resetBackgroundPaddleWidth2();
+		$(paddleWidth2).css("background-color", "#58D3F7");
+	}
+
+	$(".paddle2-width").click(function(){
+		setBackgroundPaddleWidth2(".paddle2-width");
+	});
+	$(".paddle2-width2").click(function(){
+		setBackgroundPaddleWidth2(".paddle2-width2");
+	});
+	$(".paddle2-width3").click(function(){
+		setBackgroundPaddleWidth2(".paddle2-width3");
+	});
+	$(".paddle2-width4").click(function(){
+		setBackgroundPaddleWidth2(".paddle2-width4");
+	});
+});

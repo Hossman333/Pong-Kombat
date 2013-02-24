@@ -1,0 +1,48 @@
+@import 'reset.css';
+/*///////////////////MAIN/////////////////////////*/
+#wrap{
+	height: 500px;
+	width:  800px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+	position: relative;
+}
+#header{
+	height: 52px;
+	width: 295px;
+	margin: 0 auto;
+}
+.title{
+	margin-top: 20px;
+	height: 52px;
+	width: 295px;
+	background-image: url(../images/title.png);
+}
+.miniGameMain{
+	position: absolute;
+	z-index: -1000;
+}
+.inside{
+	height: 447px;
+	width: 400px;
+	margin-top: 53px;
+	position: relative;
+}
+.suddenDeathHighlighted{
+	position: absolute;
+	bottom: 29px;
+	left: 24px;
+	display: none;
+}
+.rallyHighlighted{
+	position: absolute;
+	top: 117px;
+	right: 37px;
+	display: none;
+}
+.speedXHighlighted{
+	position: absolute;
+	left: 24px;
+	top: 117px;
+}
